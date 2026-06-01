@@ -1,0 +1,3 @@
+﻿  day1.c
+D:\zuomian\C_study\code\code_note\code_c\c_code_books\c_code_books\day1.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  c_code_books.vcxproj -> D:\zuomian\C_study\code\code_note\code_c\c_code_books\x64\Debug\c_code_books.exe

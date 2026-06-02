@@ -4,7 +4,7 @@
 //std -- standard
 //i -- input 输入
 //o -- output 输出
-#include <stdio.h>
+//#include <stdio.h>
 
 ////main 函数是程序的入口，也被叫做：主函数。一个项目只能有一个 main 函数
 ////int 前面表示返回整数

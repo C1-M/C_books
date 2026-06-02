@@ -128,6 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="day1.c" />
+    <ClCompile Include="day2.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

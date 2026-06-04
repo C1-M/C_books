@@ -21,10 +21,11 @@
     <ClCompile Include="day2.c">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="dy.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="day3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="day4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

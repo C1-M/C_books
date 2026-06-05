@@ -1,10 +1,3 @@
 ﻿  day3.c
 D:\zuomian\github_code_clong\C_code_book\Project1\Project1\day3.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-D:\zuomian\github_code_clong\C_code_book\Project1\Project1\day3.c(565,8): warning C4477: “scanf”: 格式字符串“%c”需要类型“char *”的参数，但可变参数 2 拥有了类型“int *”
-D:\zuomian\github_code_clong\C_code_book\Project1\Project1\day3.c(565,8): warning C4473: “scanf”: 没有为格式字符串传递足够的参数
-      D:\zuomian\github_code_clong\C_code_book\Project1\Project1\day3.c(565,8):
-      占位符和其参数预计 5 可变参数，但提供的却是 3 参数
-      D:\zuomian\github_code_clong\C_code_book\Project1\Project1\day3.c(565,8):
-      缺失的可变参数 4 为格式字符串“%c”所需
-  
   Project1.vcxproj -> D:\zuomian\github_code_clong\C_code_book\Project1\x64\Debug\Project1.exe

@@ -16,7 +16,7 @@
 // \0 ：null字符，代表没有内容，\0 就是 \ddd 这一类转义字符的一种，用于字符串的结束标志，其ASCII码值是0
 
 
-#include<stdio.h>
+//#include<stdio.h>
 
 //void main()
 //{

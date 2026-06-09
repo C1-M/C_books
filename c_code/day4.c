@@ -1,45 +1,45 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-//int main()
-//{
-//	int a = 0;
-//	int b = 0;
-//	scanf("%d%d", &a, &b);
-//	printf("a = %d\nb = %d\n", a, b);
-//
-//	return 0;
-//}
-
-
-
-//int main()
-//{
-//    int year = 0;
-//    int year = 0;
-//    int month = 0;
-//    int day = 0;
-//
-//    scanf("%d%*c%d%*c%d", &year, &month, &day);//1998-02-06
-//
-//    printf("%d %d %d\n", year, month, day);
-//
-//    return 0;
-//}
-
+// 分支和循环
 //int main()
 //{
 //	int num = 0;
-//	//输入
 //	scanf("%d", &num);
-//	//判断
-//	if (num % 2 == 1)//== 是用来判断是否相等
+//	if (num % 2 == 1)// == 判断是否相等
+//	{
 //		printf("奇数\n");
+//	}
 //	else
+//	{
 //		printf("偶数\n");
+//	}
 //
 //	return 0;
 //}
+
+
+int main()
+{
+    int age = 0;
+    printf("输入你的年龄：\n");
+    scanf("%d", &age);
+    if (age >= 18)
+    {
+        printf("成年\n");
+        printf("成年2\n");
+    }
+    else
+    {
+        printf("未成年\n");
+        printf("未成年2\n");
+    }
+
+    return 0;
+}
+
+
+
 
 //
 //int main()
@@ -256,7 +256,7 @@
 //	return 0;
 //}
 
-#include <stdio.h>
+//#include <stdio.h>
 //
 //int main()
 //{

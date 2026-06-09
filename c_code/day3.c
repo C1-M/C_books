@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
+//#include <stdio.h>
 
 // 什么是变量？C语言中把经常变化的值称为 变量，不变的值称为 常量。
 // 变量创建的语法形式是这样：
@@ -227,93 +227,42 @@
 //	return 0;
 //}
 
-// 后置++、前置++
-int main()
-{
-	int a = 3;
-	int b = a++;
-	/*
-	b = 3;
-	b = a + 1;
-	*/
-	
-
-	int b = ++a;
-	b = a + 1;
-	b = 4;
-
-	return 0;
-}
-
-
-
-
-
-
-
-
-
 //int main()
 //{
-//	int a = 10;
-//	//a = a + 1;
-//	//a += 1;
-//	//a++;
-//	//++a;
-//	//以上四种写法都是a，自增了1
+//	// 后置++、前置++
+//	//int a = 3;
+//	//int b = a++;
+//	///*
+//	//b = 3;
+//	//b = a + 1;
+//	//*/
+//	//printf("%d\n", a); // 输出 4
+//	//printf("%d\n", b); // 输出 3
+//	////先使用，再加一
+//	
+//	//int a = 3;
+//	//int b = ++a;
+//	///*
+//	//b = a + 1;
+//	//b = 4;
+//	//*/
+//	//printf("%d\n", a); // 输出 4
+//	//printf("%d\n", b); // 输出 4
+//	////先加一，后使用
 //
-//	printf("a = %d\n", a);
-//	return 0;
-//}
-
-
-//int main()
-//{
-//	int a = 10;
-//	int b = a++;
-//	//b = a, a = a+1;
-//	//后置++:  先使用，再+1
+//	// 后置--、前置--
+//	//int a = 22;
+//	//int b = a--;
+//	//printf("%d\n", a); // 输出 21
+//	//printf("%d\n", b); // 输出 22
+//	////后置--：先使用，再减一
 //
-//	printf("a = %d\n", a);//11
-//	printf("b = %d\n", b);//10
+//	//int a = 22;
+//	//int b = --a;
+//	//printf("%d\n", a); // 输出 21
+//	//printf("%d\n", b); // 输出 21
+//	////前置--：先减一，再使用
 //
-//
-//	return 0;
-//}
-
-//int main()
-//{
-//	int a = 10;
-//	int b = ++a;
-//	//a=a+1, b=a
-//	//前置++: 先+1，再使用
-//	//
-//	printf("a = %d\n", a);//11
-//	printf("b = %d\n", b);//11
-//
-//	return 0;
-//}
-
-//int main()
-//{
-//	int a = 10;
-//	int b = --a;
-//	//前置--: 先-1，再使用
-//	//
-//	printf("a = %d\n", a);//9
-//	printf("b = %d\n", b);//9
-//
-//	return 0;
-//}
-
-//int main()
-//{
-//	int a = 10;
-//	int b = a--;
-//	//后置--: 先使用，再-1
-//	//
-//	printf("a = %d\n", a);//9
-//	printf("b = %d\n", b);//10
 //
 //	return 0;
 //}
@@ -327,89 +276,52 @@ int main()
 //	return 0;
 //}
 
+
 //int main()
 //{
-//	int a = 10;
+//	int a = 3;
 //	int b = +a;
-//	printf("%d\n", b);
+//	printf("%d\n", b);//输出 3，因为赋给a是正，所以b得正
+//
 //	return 0;
 //}
 
 //int main()
 //{
-//	int a = -10;
-//	int b = +a;
-//	printf("%d\n", b);
+//	int a = 3;
+//	int b = -a;
+//	printf("%d\n", b);//输出 -3，因为赋给a负，所以得负
+//
 //	return 0;
 //}
 
 
+// 强制转换
 //int main()
 //{
 //	int a = (int)3.14;
-//	//int   double
-//	//4     8
 //	printf("%d\n", a);
-//
-//	return 0;
-//}
-//int main()
-//{
-//	printf("hello\nworld\n");
-//	printf("hehe");
 //	return 0;
 //}
 
-//
+
+//printf
 //int main()
 //{
-//	//printf("there are 3 apples\n");
-//	//printf("there are 5 apples\n");
-//	//printf("there are 10 apples\n");
-//
-//	//printf("there are %d apples\n", 10);
-//	//printf("%s will come tonight\n", "zhangsan");
-//	//printf("%s will come tonight\n", "lisi");
-//
-//	/*printf("zhangsan says, it's 10 o'clock\n");
-//	printf("%s says, it's %d o'clock\n", "zhangsan", 10);
-//	printf("%s says, it's %d o'clock\n", "lisi", 8);*/
+//	printf("hello\nhello\ncm\n");
+//	printf("haha");
 //
 //	return 0;
 //}
 
-//int main()
-//{
-//	/*printf("%e\n", 123.45);
-//	printf("%E\n", 123.45);*/
-//
-//	printf("%%%d\n", 50);
-//
-//
-//	return 0;
-//}
 
-//
+// printf 的用法
+// 如果格式包含格式指定符（以%开头的子序列），
+// 格式之后的额外参数会被格式化并插入到生成的字符串中，替换它们各自的指定符
 //int main()
 //{
-//	//printf("%d\n", 123);
-//	//printf("%5d\n", 123);
-//	//printf("%5d\n", 123456);
-//
-//	//printf("%-5d", 123);
-//	////123  hehe
-//	//printf("hehe\n");
-//
-//	printf("%f\n", 12.3);
-//	printf("%12f\n", 12.3);
-//	return 0;
-//}
-
-//
-//int main()
-//{
-//	printf("%+d\n", +10);
-//	printf("%+d\n", -10);
+//	printf("This is the 32nd C language exercise book.\n");
+//	printf("This is the %dnd C language exercise %s.\n", 32, "book");
 //
 //	return 0;
 //}
@@ -417,54 +329,76 @@ int main()
 
 //int main()
 //{
-//	//printf("%f\n", 1.237);
-//	//printf("%.3f\n", 1.237);
-//	//printf("%.2f\n", 1.237);
-//	//printf("%.1f\n", 1.237);
-//
-//	printf("%10.2f\n", 12.34);
-//	printf("%*.*f\n", 6, 2, 12.34);
-//
+//	printf("%E\n", 3.1415926);//科学记谱法（尾数/指数），大写
+//	printf("%e\n", 3.1415926);//科学记谱法（尾数/指数），小写
+//	printf("%d%%\n", 20); //一个 % 后跟另一个 % 字符会写入一个 %
 //
 //	return 0;
 //}
 
 //int main()
 //{
-//	printf("%s\n", "abcdef");
-//	printf("%.3s\n", "abcdef");
+//	printf("%d\n", 1);//左对齐
+//	printf("%5d\n", 12345678);//若超出指定5，则安实际大小默认对齐
+//	printf("%5d\n", 1234);//右对齐，开辟5（左往右数）的空间，右最后一位那个位置往左占数
+//	printf("%-5d\n", 1234);//左对齐
+//	printf("%-5d\n", 12345678);//若超出指定5，则安实际大小默认对齐
 //
+//	printf("%f\n", 12.3);//左对齐
+//	printf("%12f\n", 12.3);//右对齐
+//	printf("%-12f\n", 12.3);//左对齐
+//
+//	return 0;
+//}
+
+//int main()
+//{
+//	printf("%+d\n", +10);//输出 +10
+//	printf("%+d\n", -10);//输出 -10
+//	return 0;
+//}
+
+//int main()
+//{
+//	// %.2 中2表示，保留小数点后两位（若第三位数 >= 5 则前一位数+1）
+//	printf("%f\n", 3.1415926);// 输出 3.141593
+//	printf("%.3f\n", 3.1415926);//输出 3.142
+//	printf("%.2f\n", 3.1415926);//输出 3.14
+//	printf("%.1f\n", 3.1415926);//输出 3.1
+//
+//	
+//	printf("%10.2f\n", 123.456);//（%10）向右对齐，（%.2）保留两位小数
+//	printf("%*.*f\n", 10, 2, 123.456);// （%*）可替代 10，（.*）可替代 2
+//
+//	return 0;
+//}
+
+//int main()
+//{
+//	printf("%s\n", "abcdef");//所有字符串输出
+//	printf("%.3s\n", "abcdef");// (%.3)输出前三个字符串
 //	return 0;
 //}
 
 //int main()
 //{
 //	int score = 0;
-//	printf("请输入成绩:");
+//	printf("请输入成绩：");
 //	scanf("%d", &score);//& -- 取地址操作符，取出scode的地址
-//	printf("成绩是:%d\n", score);
-//
+//	printf("成绩是：%d\n",score);
 //	return 0;
 //}
 
-//
 //int main()
 //{
-//	int i = 0;
-//	int j = 0;
-//	float x = 0;
-//	float y = 0;
-//	
-//	scanf("%d%d%f%f", &i, &j, &x, &y);
-//
-//	printf("i = %d\n", i);
-//	printf("j = %d\n", j);
-//	printf("x = %f\n", x);
-//	printf("y = %f\n", y);
-//
+//	int x = 0;
+//	int y = 0;
+//	float z = 0;
+//	float q = 0;
+//	scanf("%d%d%f%f", &x, &y, &z, &q);
+//	printf("%d\n%d\n%f\n%f\n", x, y, z, q);
 //	return 0;
 //}
-
 
 
 //int main()
@@ -484,6 +418,7 @@ int main()
 //
 //	return 0;
 //}
+
 
 //#include <stdio.h>
 //int main()
@@ -598,9 +533,9 @@ int main()
 //{
 //	int a = 0;
 //	int b = 0;
-//    int c = 0;
-//	scanf("%d%c%d%c%d", &a, &b, &c);//%c在这里忽略字符，可以自己运行体验
-//	printf("%d%d%d", a, b, c);
+//  int c = 0;
+//	scanf("%d%*c%d%*c%d", &a, &b, &c);//%*c在这里忽略字符，可以自己运行体验
+//	printf("%d %d %d", a, b, c);
 //	return 0;
 //}
 

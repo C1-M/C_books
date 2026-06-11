@@ -2,6 +2,8 @@
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
+#include <stdlib.h>   // 用于 rand()、srand()
+#include <time.h>     // 用于 time() 随机数种子
 
 // while 循环
 //int main()
@@ -350,4 +352,238 @@
 //}
 
 
+//打印1 - 100之间所有3的倍数的数字
+//int main()
+//{
+//	int num = 0;
+//	for (num = 3; num <= 100; num += 3)
+//	{
+//		if (0 == num % 3)
+//		{
+//			printf("%d ", num);
+//		}
+//	}
+//	return 0;
+//}
 
+//将三个整数数按从大到小输出。
+//例如：
+//输入：2 3 1
+//输出：3 2 1
+//int main()
+//{
+//	int a, b, c;
+//	scanf("%d %d %d", &a, &b, &c);
+//
+//	if (a >= b && b >= c)
+//		printf("%d %d %d", a, b, c);
+//	else if (a >= c && c >= b)
+//		printf("%d %d %d", a, c, b);
+//	else if (b >= a && a >= c)
+//		printf("%d %d %d", b, a, c);
+//	else if (b >= c && c >= a)
+//		printf("%d %d %d", b, c, a);
+//	else if (c >= a && a >= b)
+//		printf("%d %d %d", c, a, b);
+//	else
+//		printf("%d %d %d", c, b, a);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int m = 0, n = 0, z = 0, c = 0;
+//	scanf("%d %d %d", &m, &n, &z);
+//
+//	// 第一步：让 m 成为最大值
+//	if (m < n)   // m 比 n 小，交换
+//	{
+//		c = m;
+//		m = n;
+//		n = c;
+//	}
+//	if (m < z)   // m 比 z 小，交换
+//	{
+//		c = m;
+//		m = z;
+//		z = c;
+//	}
+//
+//	// 第二步：让 n 大于等于 z（确定中间值和最小值）
+//	if (n < z)
+//	{
+//		c = n;
+//		n = z;
+//		z = c;
+//	}
+//
+//	// 从大到小输出
+//	printf("%d %d %d", m, n, z);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int arr[3], temp;
+//	scanf("%d %d %d", &arr[0], &arr[1], &arr[2]);
+//
+//	// 冒泡排序：从大到小
+//	for (int i = 0; i < 2; i++)
+//	{
+//		for (int j = 0; j < 2 - i; j++)
+//		{
+//			if (arr[j] < arr[j + 1])
+//			{
+//				temp = arr[j];
+//				arr[j] = arr[j + 1];
+//				arr[j + 1] = temp;
+//			}
+//		}
+//	}
+//	printf("%d %d %d", arr[0], arr[1], arr[2]);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int a = 0, b = 0;
+//	for (a = 1, b = 1; a <= 100; a++)
+//	{
+//		if (b >= 20) 
+//		break;
+//		if (b % 3 == 1)
+//		{
+//			b = b + 3;
+//			continue;
+//		}
+//		b = b - 5;
+//	}
+//	printf("%d\n", a);
+//	return 0;
+//}
+
+// 给定两个数，求这两个数的最大公约数
+//例如：
+//输入：20 40
+//输出：20
+//int main()
+//{
+//	int a = 0, b = 0, min = 0;
+//	scanf("%d %d", &a, &b);
+//
+//	if (a < b)
+//	{
+//		min = a;
+//	}
+//	else
+//	{
+//		min = b;
+//	}
+//
+//	do
+//	{
+//		if (a % min == 0 && b % min == 0)
+//		{
+//			printf("%d\n", min);
+//			break;
+//		}
+//		min--;
+//	} while (min >= 1);
+//
+//	return 0;
+//}
+
+// 给定两个数，求这两个数的最大公约数
+//例如：
+//输入：20 40
+//输出：20
+//int main()
+//{
+//	int a = 0, b = 0, min = 0;
+//	scanf("%d %d", &a, &b);
+//
+//	if (a < b ? (min = a) : (min = b))
+//
+//	do
+//	{
+//		if (a % min == 0 && b % min == 0)
+//		{
+//			printf("%d\n", min);
+//			break;
+//		}
+//		min--;
+//	} while (min >= 1);
+//
+//	return 0;
+//}
+
+
+// 猜数字游戏
+//void mun()
+//{
+//	int b = 0;
+//	int e = 5;
+//	int c = 5;
+//	int rt = rand() % 100 + 1; //生成1-100随机数
+//	printf("===== 猜数字游戏开始 =====\n");
+//	while (c > 0)       
+//	{
+//		printf("还有 %d 次机会，请输入 1-100 的数字：", c);
+//		scanf("%d", &b);//输入放到循环内，使每次都能重新猜
+//
+//		if (b < 1 || b > 100)
+//		{
+//			printf("输入超出范围！请输入1~100之间的数\n");
+//			continue; // 不扣除次数，重新输入
+//		}
+//
+//		if (b < rt)
+//		{
+//			printf("猜小了\n");
+//		}
+//		else if (b > rt)
+//		{
+//			printf("猜大了\n");
+//		}
+//		else
+//		{
+//			printf("恭喜你猜对了\n");
+//			break; // 直接跳出循环
+//		}
+//		c--;
+//	}
+//
+//	if (c == 0)
+//	{
+//		printf("%d次机会已用完，游戏结束！正确答案是：%d\n", e, rt);
+//	}
+//}
+//
+//int main()
+//{
+//	int a = 0;
+//	srand((unsigned int)time(NULL));//设置随机数种子（时间戳），全局只执行一次，为保证每次猜数字的答案不同
+//
+//qw: 
+//	printf("------------------\n");
+//	printf("----1.进入游戏----\n");
+//	printf("----2.退出游戏----\n");
+//	printf("------------------\n");
+//	printf("请选择数字1~2：");
+//	scanf("%d", &a);
+//
+//	switch (a)
+//	{
+//	case 1:
+//		printf("进入游戏\n");
+//		mun();
+//		goto qw;
+//	case 2:
+//		printf("退出游戏\n");
+//		break;
+//	default:
+//		printf("输入错误，请输入1~2的数字\n\n");
+//		goto qw;
+//	}
+//	return 0;
+//}

@@ -1,2 +1,4 @@
-﻿  day7.c
+﻿  正在扫描源以查找模块依赖项...
+  day8.c
+D:\Windows Kits\10\Include\10.0.26100.0\ucrt\tgmath.h(33): warning UCRT4000: This header does not conform to the C99 standard. C99 functionality is available when compiling in C11 mode or higher (/std:c11). Functionality equivalent to the type-generic functions provided by tgmath.h is available in <ctgmath> when compiling as C++. If compiling in C++17 mode or higher (/std:c++17), this header will automatically include <ctgmath> instead. You can define _CRT_SILENCE_NONCONFORMING_TGMATH_H to acknowledge that you have received this warning.
   Project1.vcxproj -> D:\zuomian\github_code_clong\c_code_books\Project1\x64\Debug\Project1.exe

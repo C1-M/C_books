@@ -99,7 +99,7 @@
 //	int n = 0;
 //	scanf("%d", &n);
 //	if (n == -1)
-//		return;//提前返回，适合函数viod，
+//		return;//提前返回，适合函数viod
 //
 //	printf("%d\n", n);
 //}
@@ -336,7 +336,7 @@
 //{
 //	int days[] = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 31, 30 };
 //	int d = days[m];
-//	if (is_leab_year(y) && m == 2)
+//	if (is_leab_year(y) && m == 2)//闰年的2月，d += 1
 //	{
 //		d += 1;
 //	}
@@ -354,6 +354,26 @@
 //	return 0;
 //}
 
+//链式访问：像链条一样将函数链接起来
+//int main()
+//{
+//	printf("%zu\n", strlen("abcdef"));
+//	return 0;
+//}
+
+//int main()
+//{
+//	printf("%d\n", printf("%d", printf("%d", 43)));//返回字符的个数 打印4321
+//	// printf("%d", 43)：函数返回值 2 printf("%d", 2)，打印43
+//	// printf("%d", 2)：函数返回值 2
+//	// printf("%d", 1)：打印 1
+//
+//	printf("%d\n", printf("%d ", printf("%d ", 43)));//添加空格后 打印43 3 2
+//	// printf("%d ", 43) 函数返回值 3，printf("%d ", 3)，打印 43
+//	// printf("%d ", 3) 函数返回值 3（2+空格），打印 3 
+//	// printf("%d\n",2) 打印 2
+//	return 0;
+//}
 
 
 

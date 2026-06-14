@@ -15,17 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="day5.c">
+    <ClCompile Include="day8.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="day6.c">
-      <Filter>源文件</Filter>
+    <ClCompile Include="add.h">
+      <Filter>头文件</Filter>
     </ClCompile>
-    <ClCompile Include="day7.c">
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="add.c">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day1.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>

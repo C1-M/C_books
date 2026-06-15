@@ -117,3 +117,103 @@ int Add(int x, int y)
 //    return 0;
 //}
 
+
+// static 和 extern
+// static 和 extern 是C语言中的关键字
+// static 是静态的意思
+// ·修饰 局部变量和全局变量
+// ·修饰 函数
+// extern 用来声明外部文件
+
+// extern 用来声明外部文件符号（生明后全源文件可用）
+// 可以使用外部int a = 100【test.c文件中】
+//extern int a;
+//
+////int a = 100;
+//
+//void text()
+//{
+//	printf("3:a = %d\n", a);
+//}
+//int main()
+//{
+//	{
+//		printf("1:a = %d\n", a);
+//	}
+//	printf("2:a = %d\n", a);
+//	text();
+//	return 0;
+//}
+
+
+//void test()
+//{
+//	int n = 10;// n 运行打印后直接销毁（生命周期结束）
+//	n++;
+//	printf("%d ", n); // 打印 11 11 11 11 11
+//}
+//int main()
+//{
+//	int i = 0;
+//	for (i = 0; i < 5; i++)
+//	{
+//		test();
+//	}
+//	return 0;
+//}
+
+// static 修饰局部变量
+//void test()
+//{
+//	static int n = 10; // n 运行后保留原来的值不会销毁（生命周期延长）
+//	n++;
+//	printf("%d ", n); // 打印 11 12 13 14 15
+//}
+//int main()
+//{
+//	int i = 0;
+//	for (i = 0; i < 5; i++)
+//	{
+//		test();
+//	}
+//	return 0;
+//}
+
+
+// static 修饰全局变量（全部源文件都可以使用）
+//
+//static int g_val = 2020;
+//// static 修饰全局变量
+//// 外部链接属性，变成内部链接属性
+//// 只能在本源件内使用
+//// 不对外使用
+//
+////extern int g_val2; // 声名外部符号
+//
+//int main()
+//{
+//	//printf("%d\n", g_val2);
+//  printf("%d\n", g_val);
+//	return 0;
+//}
+
+//static 修饰函数与修饰全局变量类似
+////extern int Add3(int x, int y);// 声名外部符号
+//
+//static int Add2(int x, int y);// 将外部符号只用于本源文件
+//int main()
+//{
+//	int a = 19;
+//	int b = 22;
+//	printf("%d", Add2(a, b));
+//	//printf("%d", Add3(a, b));
+//	return 0;
+//}
+//
+//int Add2(int x, int y)
+//{
+//	return x + y;
+//}
+
+
+

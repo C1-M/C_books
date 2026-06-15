@@ -21,10 +21,22 @@
     <ClCompile Include="add.h">
       <Filter>头文件</Filter>
     </ClCompile>
+    <ClCompile Include="test2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9_sao_lei.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="add.c">
       <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

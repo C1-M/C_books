@@ -141,9 +141,13 @@
   <ItemGroup>
     <ClCompile Include="add.h" />
     <ClCompile Include="day8.c" />
+    <ClCompile Include="9_sao_lei.c" />
+    <ClCompile Include="game.c" />
+    <ClCompile Include="test2.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="add.c" />
+    <ClInclude Include="game.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

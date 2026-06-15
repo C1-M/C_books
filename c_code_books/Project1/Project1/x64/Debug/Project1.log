@@ -1,4 +1,16 @@
 ﻿  正在扫描源以查找模块依赖项...
+  add.h
+  正在编译...
+  add.h
   day8.c
 D:\Windows Kits\10\Include\10.0.26100.0\ucrt\tgmath.h(33): warning UCRT4000: This header does not conform to the C99 standard. C99 functionality is available when compiling in C11 mode or higher (/std:c11). Functionality equivalent to the type-generic functions provided by tgmath.h is available in <ctgmath> when compiling as C++. If compiling in C++17 mode or higher (/std:c++17), this header will automatically include <ctgmath> instead. You can define _CRT_SILENCE_NONCONFORMING_TGMATH_H to acknowledge that you have received this warning.
+  9_sao_lei.c
+  game.c
+D:\zuomian\github_code_clong\c_code_books\Project1\9_sao_lei.c(27,10): warning C4048: “char (*)[9]”和“char [11][11]”数组的下标不同
+D:\zuomian\github_code_clong\c_code_books\Project1\game.c(41,16): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+D:\zuomian\github_code_clong\c_code_books\Project1\game.c(52,39): warning C4552: '-': 未使用表达式结果
+D:\zuomian\github_code_clong\c_code_books\Project1\game.c(75,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  test2.c
+  正在生成代码...
+D:\zuomian\github_code_clong\c_code_books\Project1\game.c(53,1): warning C4716: “GetMineCount”: 必须返回一个值
   Project1.vcxproj -> D:\zuomian\github_code_clong\c_code_books\Project1\x64\Debug\Project1.exe

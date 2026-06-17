@@ -160,25 +160,25 @@
 // ·每次递归调用之后越来越接近这个限制条件。
 
 // 举例：求 n 得阶层
-int Fac(int n)
-{
-	if (n == 0)
-	{
-		return 1;
-	}
-	else
-	{
-		return Fac(n - 1) * n;
-	}
-}
-int main()
-{
-	int n = 0;
-	scanf("%d", &n);
-	int r = Fac(n);
-	printf("%d\n", r);
-	return 0;
-}
+//int Fac(int n)
+//{
+//	if (n == 0)
+//	{
+//		return 1;
+//	}
+//	else
+//	{
+//		return Fac(n - 1) * n;
+//	}
+//}
+//int main()
+//{
+//	int n = 0;
+//	scanf("%d", &n);
+//	int r = Fac(n);
+//	printf("%d\n", r);
+//	return 0;
+//}
 
 
 

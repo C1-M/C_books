@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day13.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|solutionrelative:day13.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day12.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|solutionrelative:day12.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "day13.c",
+              "DocumentMoniker": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day13.c",
+              "RelativeDocumentMoniker": "day13.c",
+              "ToolTip": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day13.c",
+              "RelativeToolTip": "day13.c",
+              "ViewState": "AgIAAFUCAAAAAAAAAAAcwGkCAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-06-18T22:28:59.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "day12.c",
               "DocumentMoniker": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day12.c",
               "RelativeDocumentMoniker": "day12.c",
               "ToolTip": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day12.c",
               "RelativeToolTip": "day12.c",
-              "ViewState": "AgIAAAABAAAAAAAAAADwvyQBAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAAACYBAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-06-18T01:43:51.748Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "day11.c",
               "DocumentMoniker": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day11.c",
               "RelativeDocumentMoniker": "day11.c",
@@ -47,8 +64,7 @@
               "RelativeToolTip": "day11.c",
               "ViewState": "AgIAAM8AAAAAAAAAAAAAANAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-06-18T02:17:44.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-18T02:17:44.478Z"
             }
           ]
         }

@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day14.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|solutionrelative:day14.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day13.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|solutionrelative:day13.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day12.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|solutionrelative:day12.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day11.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|solutionrelative:day11.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 742,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +26,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "day13.c",
               "DocumentMoniker": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day13.c",
               "RelativeDocumentMoniker": "day13.c",
               "ToolTip": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day13.c",
               "RelativeToolTip": "day13.c",
-              "ViewState": "AgIAAFUCAAAAAAAAAAAcwGkCAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAF4CAAAAAAAAAAAAAHACAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-06-18T22:28:59.24Z",
+              "WhenOpened": "2026-06-20T13:11:01.722Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "day12.c",
-              "DocumentMoniker": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day12.c",
-              "RelativeDocumentMoniker": "day12.c",
-              "ToolTip": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day12.c",
-              "RelativeToolTip": "day12.c",
-              "ViewState": "AgIAAAgBAAAAAAAAAAAAACYBAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-06-18T01:43:51.748Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "day11.c",
-              "DocumentMoniker": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day11.c",
-              "RelativeDocumentMoniker": "day11.c",
-              "ToolTip": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day11.c",
-              "RelativeToolTip": "day11.c",
-              "ViewState": "AgIAAM8AAAAAAAAAAAAAANAAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "day14.c",
+              "DocumentMoniker": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day14.c",
+              "RelativeDocumentMoniker": "day14.c",
+              "ToolTip": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day14.c",
+              "RelativeToolTip": "day14.c",
+              "ViewState": "AgIAALoCAAAAAAAAAAAAAM0CAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-06-18T02:17:44.478Z"
+              "WhenOpened": "2026-06-19T21:34:31.794Z",
+              "EditorCaption": ""
             }
           ]
         }

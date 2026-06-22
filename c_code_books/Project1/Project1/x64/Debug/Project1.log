@@ -1,2 +1,2 @@
-﻿day15.obj : error LNK2019: 无法解析的外部符号 Swap，函数 bubble_sort2 中引用了该符号
-D:\zuomian\github_code_clong\c_code_books\Project1\x64\Debug\Project1.exe : fatal error LNK1120: 1 个无法解析的外部命令
+﻿  day16.c
+  Project1.vcxproj -> D:\zuomian\github_code_clong\c_code_books\Project1\x64\Debug\Project1.exe

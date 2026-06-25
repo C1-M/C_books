@@ -1,7 +1,7 @@
-#define _CRT_SECURE_NO_WARNINGS
-#include<stdio.h>
-#include<ctype.h> //isdigit
-#include<string.h>
+//#define _CRT_SECURE_NO_WARNINGS
+//#include<stdio.h>
+//#include<ctype.h> //isdigit
+//#include<string.h>
 
 //isdigit
 //int main()
@@ -156,7 +156,7 @@
 
 
 
-#include <assert.h>
+//#include <assert.h>
 
 //char* my_strcpy(char* dest, const char* src)
 //{

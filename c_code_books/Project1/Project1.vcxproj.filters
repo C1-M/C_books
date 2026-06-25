@@ -39,6 +39,9 @@
     <ClCompile Include="day17.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="day19.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="day18.c">
       <Filter>源文件</Filter>
     </ClCompile>

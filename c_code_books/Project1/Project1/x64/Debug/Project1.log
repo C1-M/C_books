@@ -1,2 +1,3 @@
-﻿  day18.c
-  Project1.vcxproj -> D:\zuomian\github_code_clong\c_code_books\Project1\x64\Debug\Project1.exe
+﻿  day19.c
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 main，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
+D:\zuomian\github_code_clong\c_code_books\Project1\x64\Debug\Project1.exe : fatal error LNK1120: 1 个无法解析的外部命令

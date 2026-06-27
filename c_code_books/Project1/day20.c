@@ -1,24 +1,24 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include<stdio.h>
-#include<errno.h>
-#include <string.h> 
-int main()
-{
-	FILE* pf = fopen("data.txt", "r");
-	if (pf == NULL)
-	{
-		printf("%s\n", strerror(errno));
-		return 1;
-	}
-	else
-	{
-		printf("打开文件成功");
-	}
-	fclose(pf);
-	pf = NULL;
-
-	return 0;
-}
+//#include<stdio.h>
+//#include<errno.h>
+//#include <string.h> 
+//int main()
+//{
+//	FILE* pf = fopen("data.txt", "r");
+//	if (pf == NULL)
+//	{
+//		printf("%s\n", strerror(errno));
+//		return 1;
+//	}
+//	else
+//	{
+//		printf("打开文件成功");
+//	}
+//	fclose(pf);
+//	pf = NULL;
+//
+//	return 0;
+//}
 
 
 

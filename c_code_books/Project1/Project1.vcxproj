@@ -139,6 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="day24.c" />
     <ClCompile Include="day10.c" />
     <ClCompile Include="day11.c" />
     <ClCompile Include="day12.c" />

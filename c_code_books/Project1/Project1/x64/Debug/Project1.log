@@ -1,2 +1,4 @@
-﻿  day23.c
-  Project1.vcxproj -> D:\zuomian\github_code_clong\c_code_books\Project1\x64\Debug\Project1.exe
+﻿  day24.c
+D:\development\Professional\VC\Tools\MSVC\14.51.36231\include\yvals_core.h(23,1): error C1189: #error:  error STL1003: Unexpected compiler, expected C++ compiler.
+  (编译源文件“day24.c”)
+  

@@ -111,6 +111,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <CompileAs>Default</CompileAs>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,8 +140,6 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="day24.c" />
-    <ClCompile Include="day10.c" />
     <ClCompile Include="day11.c" />
     <ClCompile Include="day12.c" />
     <ClCompile Include="day13.c" />
@@ -154,6 +153,7 @@
     <ClCompile Include="day21.c" />
     <ClCompile Include="day22.c" />
     <ClCompile Include="day23.c" />
+    <ClCompile Include="day25.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

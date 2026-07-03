@@ -155,6 +155,7 @@
     <ClCompile Include="day23.c" />
     <ClCompile Include="day25.c" />
     <ClCompile Include="day26.c" />
+    <ClCompile Include="day27.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt" />

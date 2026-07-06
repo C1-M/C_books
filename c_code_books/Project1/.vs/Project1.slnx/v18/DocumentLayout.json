@@ -3,17 +3,21 @@
   "WorkspaceRootPath": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day29.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|solutionrelative:day29.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day30.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|solutionrelative:day30.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_20\\test._vscode.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_22\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_20\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_22\\test_vscode.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_20\\add.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_22\\test_vscode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\add.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|solutionrelative:add.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,7 +27,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 2208,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,54 +35,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "add.h",
+              "DocumentMoniker": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\add.h",
+              "RelativeDocumentMoniker": "add.h",
+              "ToolTip": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\add.h",
+              "RelativeToolTip": "add.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-07-06T12:40:06.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "day29.c",
-              "DocumentMoniker": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day29.c",
-              "RelativeDocumentMoniker": "day29.c",
-              "ToolTip": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day29.c",
-              "RelativeToolTip": "day29.c",
-              "ViewState": "AgIAAO4AAAAAAAAAAAAAAP0AAAAAAAAAAAAAAA==",
+              "Title": "day30.c",
+              "DocumentMoniker": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day30.c",
+              "RelativeDocumentMoniker": "day30.c",
+              "ToolTip": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day30.c",
+              "RelativeToolTip": "day30.c",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-07-05T12:32:01.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "test.c",
-              "DocumentMoniker": "D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_20\\test.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_20\\test.c",
-              "ToolTip": "D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_20\\test.c",
-              "RelativeToolTip": "..\\..\\..\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_20\\test.c",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-07-05T12:31:27.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "test._vscode.c",
-              "DocumentMoniker": "D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_20\\test._vscode.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_20\\test._vscode.c",
-              "ToolTip": "D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_20\\test._vscode.c",
-              "RelativeToolTip": "..\\..\\..\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_20\\test._vscode.c",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAAK0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-07-05T12:31:23.834Z",
+              "WhenOpened": "2026-07-06T12:36:12.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "add.c",
-              "DocumentMoniker": "D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_20\\add.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_20\\add.c",
-              "ToolTip": "D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_20\\add.c",
-              "RelativeToolTip": "..\\..\\..\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_20\\add.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "test_vscode.h",
+              "DocumentMoniker": "D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_22\\test_vscode.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_22\\test_vscode.h",
+              "ToolTip": "D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_22\\test_vscode.h",
+              "RelativeToolTip": "..\\..\\..\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_22\\test_vscode.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-07-06T12:37:26.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test_vscode.c",
+              "DocumentMoniker": "D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_22\\test_vscode.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_22\\test_vscode.c",
+              "ToolTip": "D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_22\\test_vscode.c",
+              "RelativeToolTip": "..\\..\\..\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_22\\test_vscode.c",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-07-05T12:31:14.83Z",
+              "WhenOpened": "2026-07-06T12:37:26.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test.c",
+              "DocumentMoniker": "D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_22\\test.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_22\\test.c",
+              "ToolTip": "D:\\zuomian\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_22\\test.c",
+              "RelativeToolTip": "..\\..\\..\\C\\class119-c-class16-master\\class119-c-class16-master\\test_5_22\\test.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-07-06T12:37:26.13Z",
               "EditorCaption": ""
             }
           ]

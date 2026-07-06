@@ -159,9 +159,13 @@
     <ClCompile Include="day27.c" />
     <ClCompile Include="day28.c" />
     <ClCompile Include="day29.c" />
+    <ClCompile Include="day30.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="add.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

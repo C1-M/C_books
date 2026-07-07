@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220.5
+    "width": 220.5,
+    "collapsed": true
   },
   "right": {
     "id": "789103797aeffb5c",
@@ -170,7 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 214.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,6 +186,7 @@
   },
   "active": "83e23184b95514c9",
   "lastOpenFiles": [
+    "c_code_books/Project1/day31.c",
     "Data_Structure/img/Pasted image 20260706224025.png",
     "Data_Structure/img",
     "Data_Structure/img/Pasted image 20260706223621.png",

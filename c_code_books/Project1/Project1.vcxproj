@@ -160,6 +160,7 @@
     <ClCompile Include="day28.c" />
     <ClCompile Include="day29.c" />
     <ClCompile Include="day30.c" />
+    <ClCompile Include="day31-Daily_drills.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt" />

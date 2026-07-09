@@ -141,33 +141,13 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="day11.c" />
-    <ClCompile Include="day12.c" />
-    <ClCompile Include="day13.c" />
-    <ClCompile Include="day14.c" />
-    <ClCompile Include="day15.c" />
-    <ClCompile Include="day16.c" />
-    <ClCompile Include="day17.c" />
-    <ClCompile Include="day18.c" />
-    <ClCompile Include="day19.c" />
-    <ClCompile Include="day20.c" />
-    <ClCompile Include="day21.c" />
-    <ClCompile Include="day22.c" />
-    <ClCompile Include="day23.c" />
-    <ClCompile Include="day25.c" />
-    <ClCompile Include="day26.c" />
-    <ClCompile Include="day27.c" />
-    <ClCompile Include="day28.c" />
-    <ClCompile Include="day29.c" />
-    <ClCompile Include="day30.c" />
     <ClCompile Include="day31-Daily_drills.c" />
     <ClCompile Include="day32-Daily_drills.c" />
+    <ClCompile Include="day33.cpp" />
+    <ClCompile Include="SqList.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="test.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="add.h" />
+    <ClInclude Include="SqList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

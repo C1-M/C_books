@@ -15,77 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="day11.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day12.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day13.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day14.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day15.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day16.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day17.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day19.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day18.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day20.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day21.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day22.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day23.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day25.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day26.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day27.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day28.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day29.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="day30.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="day31-Daily_drills.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="day32-Daily_drills.c">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="test.txt">
+    <ClCompile Include="day33.cpp">
       <Filter>源文件</Filter>
-    </Text>
+    </ClCompile>
+    <ClCompile Include="SqList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="add.h">
+    <ClInclude Include="SqList.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

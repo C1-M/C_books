@@ -58,7 +58,18 @@ void SqListInsert(SqList* ps, int i, SqDataType x) {
 }
 
 // 删除顺序表中第i个元素，并返回删除的值
-SqDataType SqListDelete(SqList* ps, int i);
+SqDataType SqListDelete(SqList* ps, int i) {
+
+	assert(ps);
+	assert(i < ps->size && i >= 0);
+
+	//挪动数据覆盖
+	for (int j = i + 1; j < ps->size; ++j) {
+		//ps->arr[j - 1] = ps - arr[j];
+	}
+
+
+}
 
 
 // 打印顺序表中的元素

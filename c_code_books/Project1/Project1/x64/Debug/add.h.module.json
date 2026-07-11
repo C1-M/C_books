@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Project1\\x64\\Debug\\add.h.obj",
+            "outputs": [
+                "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\Project1\\x64\\Debug\\vc145.pdb",
+                "Project1\\x64\\Debug\\",
+                "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\Project1\\x64\\Debug\\add.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "add.h",
+                    "source-path": "d:\\zuomian\\github_code_clong\\c_code_books\\project1\\add.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

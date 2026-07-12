@@ -27,6 +27,9 @@
     <ClCompile Include="day35-Daily_drills.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="day36-Daily_drills.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SqList.h">

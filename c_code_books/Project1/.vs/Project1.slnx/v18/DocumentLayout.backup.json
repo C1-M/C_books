@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day36-Daily_drills.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|solutionrelative:day36-Daily_drills.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day35-Daily_drills.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5F1824A2-A65E-434B-BDAA-5ACCBC2CF172}|Project1.vcxproj|solutionrelative:day35-Daily_drills.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "day36-Daily_drills.c",
+              "DocumentMoniker": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day36-Daily_drills.c",
+              "RelativeDocumentMoniker": "day36-Daily_drills.c",
+              "ToolTip": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day36-Daily_drills.c",
+              "RelativeToolTip": "day36-Daily_drills.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-07-12T15:12:36.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "day35-Daily_drills.c",
               "DocumentMoniker": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day35-Daily_drills.c",
               "RelativeDocumentMoniker": "day35-Daily_drills.c",
               "ToolTip": "D:\\zuomian\\github_code_clong\\c_code_books\\Project1\\day35-Daily_drills.c",
               "RelativeToolTip": "day35-Daily_drills.c",
-              "ViewState": "AgIAADAAAAAAAAAAAAAcwDsAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-07-11T14:10:24.702Z",
               "EditorCaption": ""

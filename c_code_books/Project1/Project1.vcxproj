@@ -145,6 +145,7 @@
     <ClCompile Include="day32-Daily_drills.c" />
     <ClCompile Include="day34-Daily_drills.c" />
     <ClCompile Include="day35-Daily_drills.c" />
+    <ClCompile Include="day36-Daily_drills.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SqList.h" />

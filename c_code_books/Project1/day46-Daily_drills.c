@@ -84,6 +84,34 @@
 1 2 3 4 5 6 7 8 9 10
 */
 
+//#include<stdio.h>
+//int main() {
+//	int arr[10] = { 0 }, j = 0, n = 0, k = 0;
+//	for (int i = 0; i < 10; i++) {
+//		scanf("%d", &arr[i]);
+//	}
+//	scanf("%d", &n);
+//
+//	int conter = 0;
+//	// 双指针筛选，保留不等于n的数
+//	for (int i = 0; i < 10; i++) {
+//		if (arr[i] != n) {
+//			arr[k] = arr[i];
+//			k++;
+//		}
+//		else {
+//			conter++;
+//		}
+//	}
+//
+//	for (int i = 0; i < 10 - conter; i++) {
+//		printf("%d ", arr[i]);
+//	}
+//	return 0;
+//}
+
+
+//优化：
 //#include <stdio.h>
 //
 //int main() {
@@ -111,7 +139,7 @@
 //    return 0;
 //}
 
-
+//优优化：
 //#include <stdio.h>
 //
 //int main() {

@@ -114,28 +114,27 @@
 //}
 
 
-#include <stdio.h>
-
-int main() {
-    int n, m;
-    scanf("%d %d", &n, &m);
-
-    int a[30], b[30], c[60];  // 结果数组大小 = n + m
-
-    // 读取两个有序序列
-    for (int i = 0; i < n; i++) scanf("%d", &a[i]);
-    for (int i = 0; i < m; i++) scanf("%d", &b[i]);
-
-    // 双指针合并核心逻辑（仅10行核心代码）
-    int i = 0, j = 0, k = 0;
-    while (i < n && j < m)
-        c[k++] = (a[i] < b[j]) ? a[i++] : b[j++];
-    while (i < n) c[k++] = a[i++];
-    while (j < m) c[k++] = b[j++];
-
-    // 格式化输出（末尾无空格）
-    for (int i = 0; i < k; i++)
-        printf("%s%d", i ? " " : "", c[i]);
-
-    return 0;
-}
+//#include <stdio.h>
+//int main() {
+//    int n, m;
+//    scanf("%d %d", &n, &m);
+//
+//    int a[30], b[30], c[60];  // 结果数组大小 = n + m
+//
+//    // 读取两个有序序列
+//    for (int i = 0; i < n; i++) scanf("%d", &a[i]);
+//    for (int i = 0; i < m; i++) scanf("%d", &b[i]);
+//
+//    // 双指针合并核心逻辑（仅10行核心代码）
+//    int i = 0, j = 0, k = 0;
+//    while (i < n && j < m)
+//        c[k++] = (a[i] < b[j]) ? a[i++] : b[j++];
+//    while (i < n) c[k++] = a[i++];
+//    while (j < m) c[k++] = b[j++];
+//
+//    // 格式化输出（末尾无空格）
+//    for (int i = 0; i < k; i++)
+//        printf("%s%d", i ? " " : "", c[i]);
+//
+//    return 0;
+//}

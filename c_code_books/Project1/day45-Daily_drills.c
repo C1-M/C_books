@@ -77,14 +77,7 @@
 
 
 
-
-
-
-
-
-
-
-
+//可带你重写
 //#include <stdio.h>
 //#include <string.h>
 //int main() {
@@ -118,7 +111,7 @@
 //}
 
 
-
+//最简且优化：
 //#include <stdio.h>
 //#include <string.h>
 //

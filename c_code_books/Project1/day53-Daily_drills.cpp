@@ -55,9 +55,17 @@
 //#include <iostream>
 //#include <vector>
 //#include <unordered_map>
+//#include<bits/stdc++.h>
 //
 //int main() {
-//    int result, x = 5, a = 2, b = 3, c = 4, d = 6;
+//    //int result, x = 5, a = 2, b = 3, c = 4, d = 6;
+//    int result = 0;
+//    int x = 5; 
+//    int a = 2;
+//    int b = 3; 
+//    int c = 4;
+//    int d = 6;
+//
 //    // 方式1：原生if else分支
 //    if (x > 0) {
 //        result = a + b;

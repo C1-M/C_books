@@ -23,6 +23,7 @@ bin-release/
 *.suo
 *.db
 *.ipch
+*.obsidian
 Debug/
 .vs
 Release/

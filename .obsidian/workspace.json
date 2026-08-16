@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编译器的选择-VS2022、VS2026.md",
-                "mode": "preview",
+                "file": "c_code_books/Project1/测试1.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "编译器的选择-VS2022、VS2026"
+              "title": "测试1"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220.5,
-    "collapsed": true
+    "width": 220.5
   },
   "right": {
     "id": "789103797aeffb5c",

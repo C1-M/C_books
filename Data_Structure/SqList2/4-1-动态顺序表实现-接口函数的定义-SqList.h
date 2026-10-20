@@ -18,7 +18,6 @@ typedef struct {
 	int capacity;				 //动态数组的容量空间的大小
 }SqList;
 
-
 // 初始化顺序表
 void SqListInit(SqList* ps);
 // 有些书本上的用法

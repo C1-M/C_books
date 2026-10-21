@@ -49,4 +49,3 @@ void destroy_list(dynamic_array* ps) {
 
 
 //≤Â»Î
-void 

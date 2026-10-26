@@ -92,3 +92,45 @@ void SqListInsert(SqList* ps, int i, SqDataType x) {
 	ps->arr[i] = x;
 	ps->size++; // 元素个数加 1
 }
+
+
+
+
+
+//删除
+// 删除顺序表中第i个元素，并返回删除的值
+SqDataType SqListDelete(SqList* ps, int i) {
+	assert(ps);
+	assert(i >= 0 && i < ps->size);
+	SqDataType x = ps->arr[i];
+
+	// 挪动数据覆盖
+	for (int j = i + 1; j < ps->size; j++) {
+		ps->arr[j - 1] = ps->arr[j];
+	}
+	ps->size--;
+	return x;
+}
+
+
+
+
+
+//查找
+// 
+// 返回顺序表中第i个元素的值
+SqDataType GetElem(SqList* ps, int i) {
+	assert(ps);
+	assert(i >= 0 && i < ps->size);
+	return ps->arr[i];
+}
+
+// 返回第一个等于x的数据元素的位序，若不存在返回-1
+int LocateElem(SqList* ps, SqDataType x) {
+	assert(ps);
+	for (int i = 0; i < ps->size; ++i) {
+		if (ps->arr[i] == x)
+			return i;
+	}
+	return -1;
+}

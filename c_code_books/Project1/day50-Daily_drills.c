@@ -21,4 +21,11 @@
 解释：122.11 摄氏度：转换为开氏度是 395.26 ，转换为华氏度是 251.798 。
 */
 
+//double* convertTemperature(double celsius, int* returnSize) {
+//    double* rem = (double*)malloc(sizeof(double) * 2);
+//    rem[0] = celsius + 273.15;
+//    rem[1] = celsius * 1.80 + 32.00;
+//    *returnSize = 2;
+//    return rem;
+//}
 

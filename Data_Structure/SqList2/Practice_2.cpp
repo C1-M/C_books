@@ -1,9 +1,15 @@
 #define _CRT_SECURE_NO_WARNINGS
 
-#include"4-1-动态顺序表实现-接口函数的定义-SqList.h"
+// 2.7 移除元素
 
-int main() {
+int removeElement(int* nums, int numsSize, int val) {
+    int cnt = 0;
 
-	SqList s1;
+    for (int r = 0; r < numsSize; r++) {
+        if (nums[r] != val) { // 如果满足条件
+            nums[cnt++] = nums[r];
+        }
+    }
 
+    return cnt;
 }
